@@ -14,6 +14,7 @@ a {
 nav {
     padding: 1em 0;
     position: sticky;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 .nav-container {
@@ -47,6 +48,10 @@ nav li:visited(:not(:first-child)) {
    max-width:200px ;
 }
 
+
+
+/* Hero */
+
 .hero-txt {
     text-align: center;
     /* border: 1px solid; */
@@ -54,8 +59,137 @@ nav li:visited(:not(:first-child)) {
     font-weight: 900;
 }
 
+.hero {
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+    font-weight: 900;
+    background-color: rgb(66, 172, 233);
+    padding: 2em;
+    align-items: center;
+}
+
+.hero button {
+    background-color: black;
+    font-size: 1.5em;
+}
+
+.speak {
+    text-align: center;
+    margin: 2em 0px;
+}
+
 .hero-container img {
     width: 30%;
    margin: .25em;
 }
 
+/* Interior */
+.int {
+    display: flex;
+    align-items: center;
+    margin:  2em 0px;
+    text-align: center;
+}
+
+.int-head {
+    font-size: 2em;
+    margin: 2em 0px;
+    text-align: center;
+}
+
+.int p {
+    margin: 2em 0px;
+    font-size: 1.3em;
+}
+
+.int-container-left {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+
+
+button {
+    padding: 1em;
+    border: none;
+    background-color: rgb(66, 172, 233);
+    font-size: 1em;
+    font-weight: 800;
+    border-radius: 1em;
+}
+
+.int-container-right img {
+    float: right;
+    max-width: 75%;
+}
+
+/* Exterior */
+
+
+.ext-container {
+    display: flex;
+}
+
+.ext-container-left img {
+    max-width: 70%;
+    float: left;
+}
+
+.ext-container-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+ p {
+    text-align: center;
+}
+
+.ext-head {
+    font-size: 2em;
+    margin: 2em 0px;
+}
+
+.ext-container-right p {
+    margin: 2em 0px;
+    font-size: 1.3em;
+}
+
+
+/* Interior Page */
+.ip-top-head {
+    text-align: center;
+    margin: 2em 0px;
+}
+
+
+.ip-triple {
+    text-align: center;
+    margin: 2em 0px;
+}
+
+.ip-triple img {
+    margin: 1em 0px;
+}
+
+.ip-triple p {
+    margin: 1em 0px;
+}
+
+.kitchen, .ip-int, .bedroom {
+    float: left;
+    max-width: 30%;
+}
+
+
+
+.bedroom img {
+    max-height: 500px;
+}
